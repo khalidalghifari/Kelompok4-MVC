@@ -85,8 +85,13 @@ Both projects have been refactored to follow the MVC design pattern. The refacto
    composer update
    ```
 
+   If you want to open client-management-system project:
    ```bash
-   cd public
+   cd Kelompok4-MVC\mvc-client-management-system\public
+   ```
+   If you want to open gym-management-system project:
+   ```bash
+   cd Kelompok4-MVC\mvc-gym-management-system\public
    ```
 
    ```bash
