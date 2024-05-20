@@ -60,17 +60,13 @@ Both projects have been refactored to follow the MVC design pattern. The refacto
      git clone git@github.com:khalidalghifari/MVC-Native-PHP-Kelompok4.git
      ```
 
-3. **Move the Projects to XAMPP's htdocs Directory:**
-
-   - Copy the folders `client-management-system` and `gym-management-system` to the `htdocs` directory of your XAMPP installation.
-
-4. **Import the Database:**
+3. **Import the Database:**
 
    - Open phpMyAdmin by navigating to `http://localhost/phpmyadmin/`.
    - Create new databases named `clientmsdb` and `gymdb`.
    - Import the SQL files provided in the respective project directories (`clientmsdb.sql` and `gymdb.sql`).
 
-5. **Install Composer**
+4. **Install Composer**
    - `https://getcomposer.org/download/`
 
 ### Running the Projects
