@@ -1,10 +1,10 @@
  <div class="sidebar-menu">
      <header class="logo">
-         <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="dashboard.php"> <span id="logo">
-                 <h1>CMS</h1>
-             </span>
-             <!--<img id="logo" src="" alt="Logo"/>-->
-         </a>
+        <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="/user/dashboard"> <span id="logo">
+                <h1>CMS</h1>
+            </span>
+            <!--<img id="logo" src="" alt="Logo"/>-->
+        </a>
      </header>
      <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
      <!--/down-->
