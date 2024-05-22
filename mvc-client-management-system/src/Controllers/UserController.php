@@ -15,6 +15,11 @@ class UserController extends Controller
         $this->render('client/index');
     }
 
+    public function forgotpassword()
+    {
+        $this->render('client/forgot-password');
+    }
+
     public function dashboard()
     {
         $this->isUser();

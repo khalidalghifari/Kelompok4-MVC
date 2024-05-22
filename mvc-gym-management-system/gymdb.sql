@@ -37,7 +37,7 @@ CREATE TABLE `tbladdpackage` (
   `uploadphoto` varchar(450) DEFAULT NULL,
   `Description` varchar(450) DEFAULT NULL,
   `create_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbladdpackage`
@@ -63,7 +63,7 @@ CREATE TABLE `tbladmin` (
   `mobile` varchar(45) DEFAULT NULL,
   `password` varchar(100) DEFAULT NULL,
   `create_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbladmin`
@@ -85,7 +85,7 @@ CREATE TABLE `tblbooking` (
   `booking_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `payment` varchar(45) DEFAULT NULL,
   `paymentType` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblbooking`
@@ -109,7 +109,7 @@ CREATE TABLE `tblcategory` (
   `id` int NOT NULL,
   `category_name` varchar(45) DEFAULT NULL,
   `status` varchar(45) DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblcategory`
@@ -131,7 +131,7 @@ CREATE TABLE `tblpackage` (
   `id` int NOT NULL,
   `cate_id` varchar(45) DEFAULT NULL,
   `PackageName` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblpackage`
@@ -152,7 +152,7 @@ CREATE TABLE `tblpayment` (
   `paymentType` varchar(45) DEFAULT NULL,
   `payment` varchar(45) DEFAULT NULL,
   `payment_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblpayment`
@@ -178,7 +178,7 @@ CREATE TABLE `tbluser` (
   `city` varchar(45) DEFAULT NULL,
   `address` varchar(200) DEFAULT NULL,
   `create_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbluser`

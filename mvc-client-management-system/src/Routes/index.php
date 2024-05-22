@@ -11,6 +11,7 @@ $router = new Router();
 $router->get('/', HomeController::class, 'index');
 
 $router->get('/admin/login', AdminController::class, 'login');
+$router->get('/admin/login/forgot', AdminController::class, 'forgotpassword');
 $router->get('/admin', AdminController::class, 'index');
 $router->get('/admin/client/add', AdminController::class, 'clientAdd');
 $router->post('/admin/client/add', AdminController::class, 'clientStore');
@@ -43,6 +44,7 @@ $router->get('/admin/logout', AdminController::class, 'logout');
 
 $router->get('/user/login', UserController::class, 'index');
 $router->post('/user/login', UserController::class, 'login');
+$router->get('/user/login/forgot', UserController::class, 'forgotpassword');
 $router->get('/user/dashboard', UserController::class, 'dashboard');
 $router->get('/user/invoices', UserController::class, 'invoice');
 $router->get('/user/invoices/{id}', UserController::class, 'invoiceDetail');

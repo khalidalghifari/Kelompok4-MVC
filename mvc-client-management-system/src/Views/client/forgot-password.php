@@ -82,7 +82,7 @@ return true;
 					<div class="clearfix"></div>
 
 					<div class="new">
-						<p><a href="index.php">Already have an account</a></p>
+						<p><a href="/user/login">Already have an account</a></p>
 						<div class="clearfix"></div>
 					</div>
 				</form>

@@ -32,6 +32,11 @@ class AdminController extends Controller
         return $this->render('admin/index');
     }
 
+    public function forgotpassword()
+    {
+        $this->render('admin/forgot-password');
+    }
+
     public function clientAdd()
     {
         $this->isAdmin();
@@ -267,6 +272,7 @@ class AdminController extends Controller
         session_unset();
         return $this->showAlertAndRedirect('success logout', '/admin/login');
     }
+
     public function password()
     {
         $this->isAdmin();

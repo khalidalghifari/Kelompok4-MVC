@@ -31,13 +31,13 @@
             <div class="col-lg-2" id="spy">
                 <div class="header-agile">
                     <h1>
-                        <a class="navbar-brand" href="index.php">
+                        <a class="navbar-brand" href="/">
                             CMS
                         </a>
                     </h1>
                 </div>
                 <ul class="nav nav-pills flex-column mt-lg-5">
-                    <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
 
                     <button type="button" class="btn btn-block mt-lg-5 mt-3 w3ls-btn p-1 btn-theme text-white  text-uppercase font-weight-bold">
                         <a class="nav-link" href="/admin/login">Admin</a>
@@ -65,19 +65,8 @@
                 <!-- //explore -->
                 <!-- contact -->
                 <div id="contact" class="pt-lg-5">
-
-                    <div class="section">
-
-
-                        <div class="footer-bottom py-lg-5 py-3">
-
-                            <div class="footer-copy text-center">
-                                <p class="text-dark">Client Management System @ 2019
-
-                                </p>
-                            </div>
-                        </div>
-
+                    <div class="footer-copy text-center">
+                        <?php include_once('includes/footer.php'); ?>
                     </div>
                 </div>
                 <!-- //contact -->

@@ -71,9 +71,10 @@ if (isset($_POST['login'])) {
 					<div class="clearfix"></div>
 
 					<div class="new">
-						<p><a href="forgot-password.php">Forgot Password</a></p><br />
-						<p><a href="../index.php">Back Home!!</a></p>
-						<div class="clearfix"></div>
+						<div class="clearfix">
+							<p><a href="/user/login/forgot">Forgot Password</a></p><br />
+							<p><a href="/">Back Home!!</a></p>
+						</div>
 					</div>
 				</form>
 			</div>

@@ -39,7 +39,7 @@
 	<div class="error_page">
 
 		<div class="error-top">
-			<h2 class="inner-tittle page">CMS</h2>
+			<h2 class="inner-tittle page">CMS Admin</h2>
 			<div class="login">
 
 				<div class="buttons login">
@@ -58,8 +58,8 @@
 					<div class="clearfix"></div>
 
 					<div class="new">
-						<p><a href="forgot-password.php">Forgot Password</a></p><br />
-						<p><a href="../index.php">Back Home!!</a></p>
+						<p><a href="/admin/login/forgot">Forgot Password</a></p><br />
+						<p><a href="/">Back Home!!</a></p>
 
 						<div class="clearfix"></div>
 					</div>
